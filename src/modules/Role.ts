@@ -106,8 +106,6 @@ class Role extends Extension {
             break
           }
           case 'cancel':
-            await j.deferUpdate()
-
             await i.editReply({
               content: '❌ Canceled',
               components: [],
