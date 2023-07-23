@@ -4,9 +4,7 @@ import type { Message } from 'discord.js'
 const replyWithSticker = async (msg: Message, name: string) => {
   if (!msg.guild) return
 
-  const sticker = (await msg.guild.stickers.fetch()).find(
-    (s) => s.name === name
-  )
+  const sticker = msg.guild.stickers.cache.find((s) => s.name === name)
 
   if (!sticker) return
 
