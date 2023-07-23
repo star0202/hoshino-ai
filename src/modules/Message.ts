@@ -29,8 +29,8 @@ class MessageExt extends Extension {
 
         break
 
-      case 'ㄴㅇㄴㅇ':
-        await replyWithSticker(msg, 'ㄴㅇㄴㅇ')
+      case 'ㄴㅇㄴㅇㄴㅇ':
+        await replyWithSticker(msg, 'ㄴㅇㄴㅇㄴㅇ')
 
         break
     }
