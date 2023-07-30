@@ -31,6 +31,11 @@ class MessageExt extends Extension {
         await replyWithSticker(msg, 'ㄴㅇㄴㅇㄴㅇ')
 
         break
+      
+      case 'ㅍㅎㅎ':
+        await replyWithSticker(msg, 'ㅍㅎㅎ')
+
+        break
     }
   }
 }
